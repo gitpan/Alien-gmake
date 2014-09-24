@@ -1,0 +1,59 @@
+{
+   "abstract" : "Find or build GNU Make",
+   "author" : [
+      "Graham Ollis <plicease@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142060",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Alien-gmake",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.28"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Alien::Base" : "0.005",
+            "Capture::Tiny" : "0",
+            "File::chdir" : "0",
+            "Module::Build" : "0.28"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Alien::Base" : "0.005",
+            "Env" : "0",
+            "File::Spec" : "0",
+            "base" : "0",
+            "perl" : "5.006"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Test::More" : "0.94"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/plicease/Alien-gmake/issues"
+      },
+      "homepage" : "http://perl.wdlabs.com/Alien-gmake",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/plicease/Alien-gmake.git",
+         "web" : "https://github.com/plicease/Alien-gmake"
+      }
+   },
+   "version" : "0.03"
+}
+
