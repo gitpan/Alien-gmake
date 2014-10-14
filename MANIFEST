@@ -9,7 +9,6 @@ META.yml
 README
 dist.ini
 inc/My/ModuleBuild.pm
-inc/pkgconfig/gmake.pc
 lib/Alien/gmake.pm
 t/00_diag.t
 t/00_diag.txt

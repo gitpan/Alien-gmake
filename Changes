@@ -1,5 +1,8 @@
 Revision history for Alien-gmake
 
+0.04      2014-10-14 07:33:08 -0400
+  - use Alien::Base 0.006
+
 0.03      2014-09-24 13:41:22 -0400
   - first CPAN release
 

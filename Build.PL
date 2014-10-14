@@ -11,7 +11,7 @@ my %module_build_args = (
     "Module::Build" => "0.28"
   },
   "configure_requires" => {
-    "Alien::Base" => "0.005",
+    "Alien::Base" => "0.006",
     "Capture::Tiny" => 0,
     "File::chdir" => 0,
     "Module::Build" => "0.28"
@@ -21,13 +21,13 @@ my %module_build_args = (
     "Graham Ollis <plicease\@cpan.org>"
   ],
   "dist_name" => "Alien-gmake",
-  "dist_version" => "0.03",
+  "dist_version" => "0.04",
   "license" => "perl",
   "module_name" => "Alien::gmake",
   "recommends" => {},
   "recursive_test_files" => 1,
   "requires" => {
-    "Alien::Base" => "0.005",
+    "Alien::Base" => "0.006",
     "Env" => 0,
     "File::Spec" => 0,
     "base" => 0,
