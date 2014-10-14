@@ -27,4 +27,4 @@ resources:
   bugtracker: https://github.com/plicease/Alien-gmake/issues
   homepage: http://perl.wdlabs.com/Alien-gmake
   repository: git://github.com/plicease/Alien-gmake.git
-version: '0.04'
+version: '0.05'
